@@ -1,0 +1,71 @@
+.footer{
+    position: relative;
+    height: 145px;
+}
+
+.footer_container-line{
+    border-top: 1px solid #fff;
+}
+
+.links{
+    position: absolute;
+    top: 28px;
+    right: 260px;
+}
+
+.links__link{
+    display: inline-block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.contacts__desc{
+    color: #9A9A9A;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.links__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.links__item:last-child{
+    margin-right: 0;
+}
+
+.links__item--icon__tg .links__link{
+    background-image: url("/img/tg.png");
+}
+
+.links__item--icon__tg .links__link:hover{
+    background-image: url("/img/tg-hover.png");
+}
+
+.links__item--icon__vk .links__link{
+    background-image: url("/img/vk.png");
+}
+
+.links__item--icon__vk .links__link:hover{
+    background-image: url("/img/vk-hover.png");
+}
+
+.links__item--icon__fb .links__link{
+    background-image: url("/img/fb.png");
+}
+
+.links__item--icon__fb .links__link:hover{
+    background-image: url("/img/fb-hover.png");
+}
+
+
+.links__item--icon__inst .links__link{
+    background-image: url("/img/in.png");
+}
+
+.links__item--icon__inst .links__link:hover{
+    background-image: url("/img/in-hover.png");
+}

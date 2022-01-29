@@ -1,0 +1,86 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.42;
+    font-size: 16px;
+    background-color: #001821;
+    color: #fff;
+    -webkt-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+
+.wrapper {
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.wrapper--main {
+    background: url("/img/1.png") center top, url("/img/2.png") center bottom 165px;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.container--offers{
+    margin-bottom: 117px;
+}
+
+.button{
+    padding: 18px 40px;
+    border: 1px solid red;
+    border-radius: 35px;
+    background-color: #ffffff;
+    color: #ff0000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button--theme-red{
+    border: 1px solid red;
+    background-color: #F5170E;
+    color: #ffffff;
+    
+}
+
+.button--theme-white:hover{
+    background-color: #F5170E;
+    color: #fff;
+}

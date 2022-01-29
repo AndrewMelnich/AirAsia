@@ -1,0 +1,59 @@
+.header{
+    height: 120px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    margin-right: 79px;
+}
+
+.menu{
+    position: absolute;
+    top: 37px;
+    left: 164px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.menu__item{
+    display: inline-block;
+    margin-right: 51px;
+    vertical-align: middle;
+}
+
+.menu__item:last-child{
+    margin-right: 0;
+}
+
+.menu__link{
+    font-size: 14px;
+}
+
+.menu__link:hover{
+    color: #DA0100;
+}
+
+.contacts{
+    position: absolute;
+    top: 26px;
+    right: 10px;
+    text-align: right;
+    vertical-align: middle;
+    font-style: normal;
+}
+
+.contacts__phone{
+    text-align: right;
+    font-size: 26px;
+    line-height: 1.1;
+}
+
+.contacts__hours {
+    text-decoration: underline;
+    font-size: 13px;
+}
