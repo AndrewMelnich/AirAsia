@@ -47,7 +47,7 @@ h2 {
 }
 
 .wrapper--main {
-    background: url("/img/1.png") center top, url("/img/2.png") center bottom 165px;
+    background: url("../img/1.png") center top, url("../img/2.png") center bottom 165px;
     background-repeat: no-repeat;
 }
 
