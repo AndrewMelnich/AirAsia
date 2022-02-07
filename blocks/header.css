@@ -1,6 +1,6 @@
 .header{
     padding-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,14 +11,24 @@
     align-items: center;
 }
 
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+}
+
 .header__col--align--right{
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 
 
 .logo{
     display: block;
     margin-right: 80px;    
+}
+
+.logo--inner{
+    margin-right: 50px;
 }
 
 

@@ -38,9 +38,14 @@
 }
 
 .paginator__item--active{
-   background: #FFFFFF;
-   color: red;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: red;
 }
+
+
+
+
 
 /* ______light theme______ */
 
