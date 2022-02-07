@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -9,6 +13,15 @@ body {
     -webkt-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+img{
+    display: block;
+    max-width: 100%;
 }
 
 a {
@@ -40,11 +53,12 @@ h2 {
     font-weight: bold;
 }
 
-
-
 .wrapper {
     overflow: hidden;
-    max-height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .wrapper--main {
