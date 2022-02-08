@@ -1,6 +1,5 @@
 .partners{
-    background: #fff;;
-    padding: 90px 0;
+    background: #fff;
 }
 
 .partners--bg--grey{
@@ -10,24 +9,21 @@
 .partners__title{
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 70px;
+    margin-bottom: 85px;
     color: #1A1B1E;
 }
 
 .partner__link{
     text-decoration: none;
     display: flex;
-    /* width: 270px;
-    height: 100px;  */
     align-items: center;
-    /* justify-content: center; */
-   
 }
 
 .partners__list{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 .partner__item{

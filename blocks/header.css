@@ -1,9 +1,12 @@
 .header{
     padding-top: 30px;
-    margin-bottom: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header--main{
+    margin-bottom: 75px;
 }
 
 .header__col{
@@ -14,13 +17,8 @@
 .header-inner{
     display: flex;
     justify-content: space-between;
-    max-width: 1150px;
+    padding-top: 29px;
 }
-
-.header__col--align--right{
-    /* justify-content: flex-end; */
-}
-
 
 .logo{
     display: block;
@@ -28,8 +26,10 @@
 }
 
 .logo--inner{
-    margin-right: 50px;
-}
+    display: block;
+    width: 98px;
+    margin-right: 67px;
+} 
 
 
 .menu__item{
@@ -57,11 +57,15 @@
 }
 
 .contacts__phone{
+    display: block;
     text-align: right;
     font-size: 26px;
+    line-height: 1.2;
 }
 
 .contacts__hours {
     text-decoration: underline;
     font-size: 13px;
+    line-height: 1;
+    letter-spacing: 0.4px;
 }

@@ -10,8 +10,9 @@
 
 .service{
     display: flex;
-    padding: 30px 56px;
     text-decoration: none;
+    padding-top: 56px;
+    align-items: center;
 }
 
 .service__img{
