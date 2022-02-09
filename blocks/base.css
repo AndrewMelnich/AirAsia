@@ -95,6 +95,10 @@ h2 {
     
 }
 
+.button--theme-white{
+    padding: 18px 29px; 
+}
+
 .button--theme-white:hover{
     background-color: #F5170E;
     color: #fff;
