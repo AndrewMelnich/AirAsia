@@ -103,3 +103,8 @@ h2 {
     background-color: #F5170E;
     color: #fff;
 }
+
+.welcome__btn{
+    font-weight: normal;
+    padding: 18px 59px;
+}
