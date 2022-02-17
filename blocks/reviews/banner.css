@@ -1,0 +1,24 @@
+.banner{
+    display: flex;
+    min-height: 363px;
+    background: url("../../img/reviews/Rectangle.png") center center no-repeat;
+    
+}
+
+.banner__img{
+    height: 100%;    
+}
+
+.banner__title{
+    display: flex;
+    align-items: center;
+}
+
+.banner__desc{
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+

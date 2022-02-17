@@ -37,6 +37,7 @@ ul {
 p {
     margin: 0;
     padding: 0;
+    line-height: 1.7;
 }
 
 ul li {
@@ -78,7 +79,7 @@ h2 {
 
 .button{
     padding: 18px 40px;
-    border: 1px solid red;
+    border: 1px solid transparent;
     border-radius: 35px;
     background-color: #ffffff;
     color: #ff0000;
@@ -93,6 +94,11 @@ h2 {
     background-color: #F5170E;
     color: #ffffff;
     
+}
+
+.button--theme-black{
+    background: #2B2B2B;
+    color: #fff;
 }
 
 .button--theme-white{
