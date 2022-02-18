@@ -15,11 +15,12 @@ body {
     margin: 0;
 }
 
-body, html {
+body,
+html {
     height: 100%;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
 }
@@ -44,7 +45,10 @@ ul li {
     list-style: none;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
     font-weight: normal;
 }
@@ -52,6 +56,12 @@ h1, h2, h3, h4 {
 h2 {
     font-size: 36px;
     font-weight: bold;
+}
+
+button {
+    line-height: 1.7;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .wrapper {
@@ -68,16 +78,16 @@ h2 {
 }
 
 
-.container{
+.container {
     margin: 0 auto;
     width: 1140px;
 }
 
-.container--offers{
+.container--offers {
     margin-bottom: 117px;
 }
 
-.button{
+.button {
     padding: 18px 40px;
     border: 1px solid transparent;
     border-radius: 35px;
@@ -89,28 +99,41 @@ h2 {
     display: inline-block;
 }
 
-.button--theme-red{
+.button--theme-red {
     border: 1px solid red;
     background-color: #F5170E;
     color: #ffffff;
-    
+
 }
 
-.button--theme-black{
+.button--theme-black {
     background: #2B2B2B;
     color: #fff;
 }
 
-.button--theme-white{
-    padding: 18px 29px; 
-}
-
-.button--theme-white:hover{
-    background-color: #F5170E;
+.button--theme-black:hover {
+    background: #8E8E8E;
     color: #fff;
 }
 
-.welcome__btn{
-    font-weight: normal;
+.button--theme-white {
+    border: 1px solid red;
+    padding: 18px 29px;
+}
+
+.button--theme-white:hover {
+    background-color: #F5170E;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.welcome__btn {
+    font-weight: bold;
     padding: 18px 59px;
+}
+
+.welcome__btn:hover {
+    background-color: #DA0100;
+    border: 1px solid #DA0100;
+    transition: 0.6s;
 }

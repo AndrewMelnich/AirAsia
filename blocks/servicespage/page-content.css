@@ -2,6 +2,7 @@
     background: #fff;
     color: #303030;
     padding: 100px 0 85px;
+    
 }
 
 .services{
@@ -12,6 +13,7 @@
     display: flex;
     text-decoration: none;
     align-items: center;
+    
 }
 
 .service__img{

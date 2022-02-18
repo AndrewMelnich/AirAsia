@@ -33,6 +33,8 @@
 
 .paginator__link:hover{
     color: red;
+    background: #FFFFFF;
+    transition: 0.3s;
 }
 
 .paginator__item--active{

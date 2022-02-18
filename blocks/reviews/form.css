@@ -1,6 +1,6 @@
 .inner-form {
     background: #F4F5F5;
-    padding: 62px 0 78px;
+    padding: 62px 0 70px;
 }
 
 .form__title{
@@ -81,13 +81,11 @@
 }
 
 .controls__checkbox:focus ~ .controls__tag{
-    /* background: rgba(185, 234, 228, 0.3); */
     border: 1px solid #b01030;
     opacity: 0.9;
 }
 
 .controls__checkbox{
-    /* display: none;    */
     appearance: none;
     -ms-progress-appearance: none;
     position: absolute;

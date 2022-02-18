@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="./blocks/main.css">
     <title>Отзывы</title>
 </head>
@@ -27,7 +27,15 @@
                     <div class="header__col header__col--align--right">
                         <address class="contacts">
                             <a href="tel: +78007003030" class="contacts__phone">8 800 700 30 30</a>
-                            <div class="contacts__hours">График работы</div>
+                            <div class="contacts__inform">
+                                <div class="contacts__inform-hours">График работы</div>
+                                <div class="dropdown">
+                                    <ul class="dropwown__list">
+                                        <li class="dropdown__item-bold">пн-вс: 09:00 - 20:00</li>
+                                        <li class="dropdown__item">Обед: 14:00-14:30</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </address>
                     </div>
                 </div>
@@ -78,7 +86,7 @@
                         </p>
                     </div>
                     <div class="reviews__date">
-                        Ноябрь 2019
+                        Ноябрь 2019 
                     </div>
                 </li>
                 <li class="reviews__item">
@@ -211,7 +219,9 @@
                 <div class="banner__desc">
                     Подберем тур <br>по вашим пожеланиям
                 </div>
-                <img src="./img/reviews/couple.png" alt="" class="banner__img">
+                <div class="banner__img-wrapper">
+                    <img src="./img/reviews/couple.png" alt="" class="banner__img">
+                </div>
             </div>
         </section>
 
@@ -274,8 +284,8 @@
                         </ul>
                     </div>
                     <div class="form__row form__row--buttons">
-                        <button type="reset" class="button button--theme-black form__button">Отчистить</button>
-                        <button type="reset" class="button button--theme-red form__button">Отправить</button>
+                        <button type="reset" class="button button--theme-black form__button">ОЧИСТИТЬ</button>
+                        <button type="reset" class="button button--theme-red form__button">ОТПРАВИТЬ</button>
                     </div>
                 </form>
             </div>

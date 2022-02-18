@@ -1,5 +1,5 @@
 .about{
-    margin-bottom: 44px;
+    margin-bottom: 75px;
     display: flex;
 }
 
@@ -15,6 +15,7 @@
     padding: 70px 200px 70px 80px;
     content: "";
     display: inline-block;
+    flex-direction: column;
     margin-left: -145px;
     margin-top: 95px;
     background: url("../../img/mnts.png") center center / cover no-repeat;
@@ -30,7 +31,8 @@
     margin-bottom: 43px;
     color: black;
     width: 520px;
-    height: 135px;
+    max-height: 135px;
+    overflow-y: auto;
 }
 
 .about__desc-text p {
