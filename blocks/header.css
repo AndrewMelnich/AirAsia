@@ -84,7 +84,7 @@
     display: inline-flex;
 }
 
-.contacts__inform:hover{
+.contacts__inform:hover .contacts__inform-hours {
     color: #fff;
 }
 
